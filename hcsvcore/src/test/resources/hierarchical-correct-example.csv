@@ -1,0 +1,19 @@
+to-ignore;line 1
+to-ignore;line 2
+0;2023-03-01
+1;001;user1
+2;001;Spain;99
+3;001;Spain;Barcelona
+2;001;France;93
+3;001;France;Paris
+1;002;user2
+2;002;France;93
+3;002;France;Paris
+2;002;France;76
+3;002;France;Normandie
+4;002;I093109494;TV Samsung
+4;002;B938197310;Iphone 14
+4;002;X139849147;Fridge Samsung
+4;002;A917497177;Washing Machine Hisence
+1000;unknown;bean;type
+999;2
