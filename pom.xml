@@ -160,4 +160,13 @@
         </contributor>
     </contributors>
 
+    <developers>
+        <developer>
+            <name>Fawaz Ibrahim</name>
+            <email>fawaz.ibrahim.ali@gmail.com</email>
+            <organization>io.github.hierarchical-csv</organization>
+            <organizationUrl>https://github.com/fawaz-ibrahim</organizationUrl>
+        </developer>
+    </developers>
+
 </project>
