@@ -6,7 +6,7 @@
 
     <groupId>io.github.hierarchical-csv</groupId>
     <artifactId>hcsv-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>Hierarchical CSV</name>
     <packaging>pom</packaging>
     <description>A simple library for reading Hierarchical CSV in Java</description>
