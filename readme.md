@@ -41,7 +41,7 @@ To use Hierarchical CSV in your project, you should add it as a Maven dependency
 <dependency>
     <groupId>io.github.hierarchical-csv</groupId>
     <artifactId>hcsv-core</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <!-- Please refer to Versions section to check available versions -->
 </dependency>
 ```
@@ -49,7 +49,7 @@ To use Hierarchical CSV in your project, you should add it as a Maven dependency
 ### Java Version Requirements
 | io.github.hierarchical-csv | com.opencsv | Minimum Java Version supported |
 |----------------------------|-------------|--------------------------------|
-| &lt; 1.0-SNAPSHOT          | &gt;= 5.7.0 | 11                             |
+| &lt; 1.0.0                 | &gt;= 5.7.0 | 11                             |
 
 
 ## Usage
