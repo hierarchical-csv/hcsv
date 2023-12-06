@@ -93,7 +93,7 @@ Corresponding CSV line would be like:
 ```
 
 ### Map CSV columns to Bean attributes
-Each attribute in the bean should have the `@CsvBindByPosition` provided by the OpenCSV. Knowing that any OpenCSV column type annotation can be used (like the `` annotation or others).
+Each attribute in the bean should have the `@CsvBindByPosition` provided by the OpenCSV. Knowing that any OpenCSV column type annotation can be used (like the `@CsvDate` annotation or others).
 
 ```java
 import com.opencsv.bean.CsvBindByPosition;
@@ -232,8 +232,8 @@ The corresponding CSV file would be:
 03;00001;Beeper;Motorolla
 03;00001;Watch;Casio
 01;01098;Chandler Bing
-02;00001;Tulsa;48199
-03;00001;Phone;Samsung
+02;01098;Tulsa;48199
+03;01098;Phone;Samsung
 ```
 
 **Example 2**: We have parent movie (bean: `Movie`) that could have a list of actors (bean: `Actor`) and each actor could have a list of scenes (bean: `Scene`).
@@ -294,6 +294,9 @@ public class Address {
   
     @CsvBindByPosition(position = 3)
     private int age;
+
+    @CsvChildList
+    private List<Scene> scenes;
     
     // Getters and setters
     
@@ -310,7 +313,7 @@ import io.github.hierarchicalcsv.core.annotation.CsvParentKeyPart;
 import io.github.hierarchicalcsv.core.annotation.HCSVBean;
 
 @HCSVBean(codePosition = 0, codeValue = "sce")
-public class Address {
+public class Scene {
 
   @CsvBindByPosition(position = 0, required = true)
   private String code;
